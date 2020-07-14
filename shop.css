@@ -1,0 +1,84 @@
+a.tooltip{
+    text-decoration: red;
+}
+
+a.tooltip:hover{
+    position: relative;
+}
+
+
+body {
+    margin: 60px;
+    font-family: Montserrat ; font-size: 18px;
+    background-color: black;
+}
+
+.topnav{
+    width: 100%;
+    background-color: #000;
+    overflow: auto;
+}
+
+.topnav a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+background-color: #ff0303;
+}
+
+.topnav .active {
+ background-color: #ff0303;
+
+}
+
+.topnav input[type=text] {
+ float: right;
+ padding: 6px;
+margin-top: 8px;
+margin-right: 16px;
+border: none;
+font-size: 17px;
+}
+.nav2
+{
+	width: 1300px;
+	float: right;
+	border:1px solid none;
+	background-color: grey;
+	margin-left: 50px; 
+}
+
+.nav2 li
+{
+	
+	width: 120px;
+	float: left;
+	margin-left: 150px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+    text-align: center;
+    background-color: #696969;
+	
+}
+.nav2 a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+.nav2 a:hover
+{
+	color: white;
+	background-color: #696969;
+	
+}
+
+
+
